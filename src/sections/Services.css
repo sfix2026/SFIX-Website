@@ -1,0 +1,222 @@
+.services {
+
+    min-height:100vh;
+  
+    padding:120px 8%;
+  
+  }
+  
+  
+  .services h2 {
+  
+    color:#F8FAFC;
+  
+    font-size:50px;
+  
+    line-height:1.3;
+  
+    max-width:700px;
+  
+    margin:20px 0 70px;
+  
+  }
+  
+  
+  
+  .services-grid {
+  
+    display:grid;
+  
+    grid-template-columns:repeat(3,1fr);
+  
+    gap:30px;
+  
+  }
+  
+  
+  
+  .service-card {
+  
+    padding:35px;
+  
+    min-height:230px;
+  
+  
+    background:rgba(8,9,13,.6);
+  
+    border:1px solid rgba(0,110,255,.2);
+  
+    border-radius:20px;
+  
+  
+    backdrop-filter:blur(15px);
+  
+  
+    transition:.5s cubic-bezier(.22,1,.36,1);
+
+    position:relative;
+
+overflow:hidden;
+  
+  }
+  
+  
+  
+  .service-card h3 {
+  
+    color:#F8FAFC;
+  
+    font-size:24px;
+  
+    margin-bottom:20px;
+  
+  }
+  
+  
+  
+  .service-card p {
+  
+    color:#94A3B8;
+  
+    line-height:1.8;
+  
+  }
+  
+  
+  
+  .service-card:hover {
+  
+    transform:translateY(-12px)
+    scale(1.02);
+  
+    border-color:#006EFF;
+  
+  
+    box-shadow:
+
+    0 0 40px rgba(0,110,255,.35),
+    
+    inset 0 0 30px rgba(0,110,255,.08);
+  
+  }
+
+  .service-number {
+
+    display:flex;
+    
+    align-items:center;
+    
+    gap:10px;
+    
+    font-size:14px;
+    
+    font-weight:700;
+    
+    color:#006EFF;
+    
+    margin-bottom:25px;
+    
+    letter-spacing:3px;
+    
+    }
+    .service-number span {
+
+      width:7px;
+      
+      height:7px;
+      
+      background:#006EFF;
+      
+      border-radius:50%;
+      
+      box-shadow:
+      0 0 15px #006EFF;
+      
+      }
+
+      .service-card::before {
+
+        content:"";
+        
+        position:absolute;
+        
+        top:0;
+        
+        left:0;
+        
+        width:100%;
+        
+        height:2px;
+        
+        background:#006EFF;
+        
+        opacity:.5;
+        
+        }
+
+        @media (max-width:768px){
+
+
+          .services{
+          
+            min-height:auto;
+          
+            padding:90px 6%;
+          
+          }
+          
+          
+          .services h2{
+          
+            font-size:32px;
+          
+            line-height:1.4;
+          
+            margin:20px 0 45px;
+          
+          }
+          
+          
+          .services-grid{
+          
+            grid-template-columns:1fr;
+          
+            gap:20px;
+          
+          }
+          
+          
+          .service-card{
+          
+            padding:28px;
+          
+            min-height:auto;
+          
+          }
+          
+          
+          .service-card h3{
+          
+            font-size:22px;
+          
+            margin-bottom:15px;
+          
+          }
+          
+          
+          .service-card p{
+          
+            font-size:15px;
+          
+            line-height:1.8;
+          
+          }
+          
+          
+          .service-number{
+          
+            margin-bottom:20px;
+          
+          }
+          
+          }

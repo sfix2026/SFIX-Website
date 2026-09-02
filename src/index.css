@@ -1,0 +1,42 @@
+*{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+
+  margin:0;
+
+  background:#05070D;
+
+  color:#F8FAFC;
+
+  font-family:var(--font-body);
+
+  -webkit-font-smoothing:antialiased;
+
+  -moz-osx-font-smoothing:grayscale;
+
+}
+
+
+a{
+  text-decoration:none;
+}
+
+
+button{
+  font-family:inherit;
+}
+
+
+::selection{
+
+  background:#006EFF;
+
+  color:white;
+
+}

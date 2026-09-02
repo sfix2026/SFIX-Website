@@ -1,0 +1,217 @@
+.contact {
+
+    min-height:80vh;
+  
+    padding:120px 8%;
+  
+    display:flex;
+  
+    flex-direction:column;
+  
+    justify-content:center;
+  
+    align-items:center;
+  
+    text-align:center;
+  
+    position:relative;
+
+    overflow:hidden;
+  }
+  
+  
+  
+  .contact h2 {
+  
+    color:#F8FAFC;
+  
+    font-size:60px;
+  
+    line-height:1.2;
+  
+    max-width:800px;
+  
+    margin:25px 0;
+  
+  }
+  
+  
+  
+  .contact h2 span {
+  
+    color:#006EFF;
+  
+  }
+  
+  
+  
+  .contact p {
+  
+    color:#94A3B8;
+  
+    max-width:550px;
+  
+    line-height:1.8;
+  
+    font-size:17px;
+  
+    margin-bottom:45px;
+  
+  }
+  
+  
+  
+  .contact-box {
+  
+    display:flex;
+  
+    gap:25px;
+  
+    padding:30px 40px;
+  
+  
+    background:rgba(8,9,13,.65);
+  
+    border:1px solid rgba(0,110,255,.25);
+  
+    border-radius:25px;
+  
+  
+    backdrop-filter:blur(15px);
+  
+    box-shadow:
+
+    0 0 40px rgba(0,110,255,.15);
+  }
+  
+  
+  
+  .contact-box a {
+
+    color:#F8FAFC;
+    
+    text-decoration:none;
+    
+    padding:15px 30px;
+    
+    border-radius:12px;
+    
+    background:rgba(255,255,255,.03);
+    
+    border:1px solid rgba(255,255,255,.08);
+    
+    transition:.4s cubic-bezier(.22,1,.36,1);
+    
+    }
+  
+  
+    .contact-box a:hover {
+
+      color:#F8FAFC;
+      
+      background:rgba(0,110,255,.15);
+      
+      border-color:#006EFF;
+      
+      box-shadow:
+      
+      0 0 25px rgba(0,110,255,.35);
+      
+      }
+ 
+
+  .contact::before {
+
+    content:"";
+    
+    position:absolute;
+    
+    width:500px;
+    
+    height:500px;
+    
+    background:#006EFF;
+    
+    filter:blur(180px);
+    
+    opacity:.15;
+    
+    top:50%;
+    
+    left:50%;
+    
+    transform:translate(-50%,-50%);
+    
+    z-index:-1;
+    
+    }
+
+    @media (max-width:768px){
+
+
+      .contact{
+      
+        min-height:auto;
+      
+        padding:90px 6%;
+      
+      }
+      
+      
+      .contact h2{
+      
+        font-size:34px;
+      
+        line-height:1.35;
+      
+        margin:20px 0;
+      
+      }
+      
+      
+      .contact p{
+      
+        font-size:15px;
+      
+        max-width:100%;
+      
+        margin-bottom:35px;
+      
+      }
+      
+      
+      .contact-box{
+      
+        width:100%;
+      
+        padding:20px;
+      
+        flex-direction:column;
+      
+        gap:15px;
+      
+        border-radius:20px;
+      
+      }
+      
+      
+      .contact-box a{
+      
+        width:100%;
+      
+        padding:14px 20px;
+      
+        text-align:center;
+      
+      }
+      
+      
+      .contact::before{
+      
+        width:350px;
+      
+        height:350px;
+      
+      }
+      
+      }

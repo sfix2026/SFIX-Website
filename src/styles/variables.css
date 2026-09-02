@@ -1,0 +1,47 @@
+:root {
+    /* SFIX Brand Colors */
+  
+    --bg-primary: #08090D;
+  
+    --electric-blue: #006EFF;
+
+    --neon-blue: #008CFF;
+  
+    --text-primary: #F8FAFC;
+  
+    --text-secondary: #94A3B8;
+  
+  
+    /* Layout */
+  
+    --container-width: 1200px;
+  
+  
+    /* Border */
+  
+    --border-color: rgba(0, 196, 255, 0.15);
+  
+  
+    /* Effects */
+  
+    --blue-glow:
+  0 0 25px rgba(0, 110, 255, 0.45);
+    
+  
+  
+    /* Radius */
+  
+    --radius-small: 8px;
+  
+    --radius-medium: 16px;
+  
+    --radius-large: 24px;
+  
+  
+    /* Transition */
+  
+    --transition-fast: 0.3s ease;
+  
+    --transition-smooth: 0.6s ease;
+  }
+  

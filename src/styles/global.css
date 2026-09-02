@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    overflow-x: hidden;
+  }
+  
+  
+  body[dir="rtl"] {
+    font-family: var(--font-persian);
+  }
+  
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  
+  ::selection {
+    background: var(--neon-blue);
+    color: var(--bg-primary);
+  }
+  
+  
+  /* Main Container */
+  
+  .container {
+    width: min(90%, var(--container-width));
+    margin: 0 auto;
+  }
