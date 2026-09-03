@@ -1,4 +1,5 @@
 import "./FloatingContact.css"
+import { Link } from "react-scroll"
 
 function FloatingContact() {
 
@@ -6,28 +7,35 @@ function FloatingContact() {
 
     <div className="floating-contact">
 
-<span className="contact-title">
-  Contact US
-</span>
-  
-    <span className="mobile-contact-icon">
-      💬
-    </span>
+      <span className="contact-title">
+        Contact US
+      </span>
 
+
+      <Link
+        to="contact"
+        smooth={true}
+        duration={800}
+        className="mobile-contact-icon"
+      >
+        💬
+      </Link>
 
 
       <div className="contact-links">
 
-        <a   href="https://t.me/SePeHr_sf01"
-    target="_blank"
-    rel="noopener noreferrer"
-    >
+        <a
+          href="https://t.me/SePeHr_sf01"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Telegram
         </a>
 
-        <a   href="https://wa.me/989178285270"
-    target="_blank"
-    rel="noopener noreferrer"
+        <a
+          href="https://wa.me/989178285270"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           WhatsApp
         </a>
@@ -37,7 +45,7 @@ function FloatingContact() {
         </a>
 
         <a href="#">
-         Freelance
+          Freelance
         </a>
 
       </div>
